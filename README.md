@@ -1,72 +1,94 @@
+ `README.md`
+
+```md
 # HackOverflow-
 for hackMit25
 
 # AI-Powered Smart Inventory Restocking System
 
 ## Project Description
-This project is an AI-powered system that automates inventory restocking using machine learning algorithms. It predicts demand and optimizes stock levels to reduce wastage and improve efficiency.
+This project is an AI-powered system that automates inventory restocking using machine learning algorithms. It predicts demand and optimizes stock levels to reduce wastage and improve efficiency. 
+
+We are actively refining our **AI-powered demand prediction** to ensure the most accurate results. The system is fully functional, and we are debugging the prediction pipeline to enhance performance.
 
 ## Installation Steps
+
 1. Clone the repository:
    ```sh
    git clone https://github.com/DevyaniSisodia/HackOverflow-.git
-   
-2. Navigate to the project directory:
+   ```
 
-cd HackOverflow-
+2. Navigate to the project directory:
+   ```sh
+   cd HackOverflow-
+   ```
 
 3. Set up the virtual environment (if not already activated):
-
-python -m venv venv
+   ```sh
+   python -m venv venv
+   ```
 
 4. Activate the virtual environment:
-
-    Windows (PowerShell):
-
-.\venv\Scripts\activate
-
-Mac/Linux:
-
-    source venv/bin/activate
+   - **Windows (PowerShell)**:
+     ```sh
+     .\venv\Scripts\activate
+     ```
+   - **Mac/Linux**:
+     ```sh
+     source venv/bin/activate
+     ```
 
 5. Install the required dependencies:
-
-pip install -r requirements.txt
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 6. Run the backend server:
+   ```sh
+   cd backend
+   python -m uvicorn main:app --reload
+   ```
 
-cd backend
-python -m uvicorn main:app --reload
+7. Run the frontend:
+   ```sh
+   cd frontend
+   npm install
+   npm start
+   ```
 
-6. Run the frontend (not applicable):
+## Features and Functionality
 
-    cd frontend
-    npm install
-    npm start
+- 📊 **Machine Learning-Based Demand Prediction** *(Currently being optimized for better accuracy)*
+- 🛒 **Automated Inventory Restocking**
+- 📈 **Data Analytics Dashboard**
+- 🖥 **FastAPI Backend**
+- 🔍 **Real-time Monitoring and Alerts**
 
-Features and Functionality
+## Team Members and Contributions
 
-    📊 Machine Learning-Based Demand Prediction
-    🛒 Automated Inventory Restocking
-    📈 Data Analytics Dashboard
-    🖥 FastAPI Backend
-    🔍 Real-time Monitoring and Alerts
+- **[Devyani Sisodia]** – Backend Development & API Integration
+- **[Varun Pingale]** – Frontend Development
+- **[Hritika Khattar]** – Machine Learning & Data Analytics
+- **[Sayali Datar]** – Documentation & Testing
+- **[Mandar Gade & Saurav Kumar]** – SQL Database
 
-Team Members and Contributions
+## Dependencies & APIs Used
 
-    [Devyani Sisodia] – Backend Development & API Integration
-    [Varun Pingale] – Frontend Development
-    [Hritika Khattar] – Machine Learning & Data Analytics
-    [Sayali Datar] – Documentation & Testing
-    [Mandar Gade & Saurav Kumar] SQL Database
+- **Python 3.10+**
+- **FastAPI** for backend
+- **Uvicorn** for ASGI server
+- **pandas** for data processing
+- **joblib** for model loading
+- **MySQL** for database management
+- **scikit-learn** for ML algorithms
+- **React** for frontend
 
-Dependencies & APIs Used
+---
 
-    Python 3.10+
-    FastAPI for backend
-    Uvicorn for ASGI server
-    pandas for data processing
-    joblib for model loading
-    MySQL for database management
-    scikit-learn for ML algorithms
-    React (if frontend is used)
+### **Status:**
+✅ **Frontend & Backend connected successfully**  
+✅ **Database integration working**  
+⚙️ **Demand prediction currently being optimized**  
+
+We are close to achieving a **fully functional AI-powered inventory system! 🚀**  
+
