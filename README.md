@@ -1,7 +1,7 @@
  `README.md`
 
 ```md
-# HackOverflow-
+# Team NeuralNinjas-
 for hackMit25
 
 # AI-Powered Smart Inventory Restocking System
